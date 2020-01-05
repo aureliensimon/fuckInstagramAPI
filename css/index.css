@@ -1,0 +1,156 @@
+body {
+    background-color: #3458c0;
+    font-family: Montserrat;
+}
+
+.brand-name {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.brand-name:hover {
+    text-decoration: none;
+    color: #dddddd;
+}
+.navbar-custom {
+    width: 75%;
+    margin: 50px auto;
+}
+.navbar-custom .navbar-nav .nav-link {
+    margin-left: 20px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 0.9em;
+}   
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff3152;
+}
+
+#main-content {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 7px 7px 7px 7px;
+    height: auto;
+}
+#content-title {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff3152;
+    padding: 15px 15px 15px 25px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+#url-selector {
+    width: 65%;
+    margin: 50px auto;
+}
+#url-input {
+    display: inline-block;
+    float: left;
+    background-color: #dddddd;
+    width: 75%;
+    border-radius: 25px 0px 0px 25px;
+    height: 50px;
+    border-width: 0em;
+}
+input[type=text] {
+    color: #303030;
+    font-size: 1.3vw;
+    text-align: center;
+}
+::placeholder {
+    color: #777777;
+    font-size: 1.3vw;
+    text-align: center;
+}
+#url-submit {
+    display: inline-block;
+    border: 0;
+    border-width: 0em;
+    width: 24%;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #ff3152;
+    color: white;
+    font-size: 1.3vw;
+}
+#submit-loupe {
+    width: 1.5vmax;
+    height: 1.5vmax;
+}
+
+#url-help {
+    width: 90%;
+    margin: 0px auto;
+}
+#url-help h1 {
+    color: #333333;
+    border-bottom: 2px solid #333333;
+    font-family: Poppins;
+}
+#url-help p {
+    margin-top: 25px;
+    font-size: 0.9em;
+}
+.help-tuto {
+    width: 48%;
+    margin: 0 auto;
+}
+
+#loading-text {
+    display: none;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+#url-result {
+    width: 75%;
+    margin: 50px auto;
+    text-align: center;
+}
+#result-image {
+    width: 70%;
+    height: 50%;
+    display:block;
+    margin: auto;
+}
+#result-description {
+    margin: 20px;
+    text-align: center;
+}
+#download-button {
+    display: none;
+    text-decoration: none;
+    border: 0em;
+    width: 15vmax;
+    padding: 0.2vw ;
+    background-color: #ff3152;
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    font-weight: 500;
+    margin: 0 auto;
+}
+#download-button:hover {
+    background-color: white;
+    border: 2px solid #ff3152;
+    color: #ff3152;
+    cursor: pointer;
+}
+#download-text {
+    margin-right: 15px;
+    font-size: 1.3vmax;
+}
+#download-img {
+    margin-top: -0.4vw;
+    width: 1.3vmax;
+    height: 1.3vmax;
+}

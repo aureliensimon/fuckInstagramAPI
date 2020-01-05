@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600,800&display=swap" rel="stylesheet"> 
+    <link href="css/profile.css" rel="stylesheet">
+    <title>Profile Viewer - fuckInstagramAPI</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a href="index.html" class="brand-name">fuckInstagramAPI</a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile viewer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main-content">
+        <div id="content-title">
+            View all photos from public profile
+        </div>
+
+        <div id="steps">          
+            <div class="step">
+                <h1>Step 1 : Go on the profile</h1>
+                <p>
+                    Title is pretty explicite, you have to get on the profile you want to see the complete
+                    profile
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>Step 2 : Go on the developper console</h1>
+                <p>
+                    You will have to paste a script in the developper console, do open the
+                    developper console press <b>F12</b>, then on the top corner click on the tab named <i>console</i>
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>Step 3 : Copy the script</h1>
+                <p>
+                    That's the one we were talking earlier, copy it
+                </p>
+                <input type="text" readonly id="script" value="var _0xfeea=['createElement','style','display','none','body','appendChild','URL','click','revokeObjectURL','href','removeChild','getElementsByClassName','FFVAD','forEach','includes','src','push','scrollHeight','scrollTop','log','Loading\x20...\x20(','length','\x20%)','scrollTo','scrollToBottom()','filter','g47SY\x20','firstChild','data','text/plain'];(function(_0x1a0d4a,_0x3b8b6f){var _0x56276f=function(_0x2e80c7){while(--_0x2e80c7){_0x1a0d4a['push'](_0x1a0d4a['shift']());}};_0x56276f(++_0x3b8b6f);}(_0xfeea,0x95));var _0x1859=function(_0x1ab3a0,_0x1c154f){_0x1ab3a0=_0x1ab3a0-0x0;var _0x5f317d=_0xfeea[_0x1ab3a0];return _0x5f317d;};let s=[];let photos=[];let infiniteScroll;function downloadFile(_0x2a60a4,_0x37d2ea,_0x434173=_0x1859('0x0')){const _0x507598=document[_0x1859('0x1')]('a');_0x507598[_0x1859('0x2')][_0x1859('0x3')]=_0x1859('0x4');document[_0x1859('0x5')][_0x1859('0x6')](_0x507598);_0x507598['href']=window[_0x1859('0x7')]['createObjectURL'](new Blob([_0x2a60a4],{'type':_0x434173}));_0x507598['setAttribute']('download',_0x37d2ea);_0x507598[_0x1859('0x8')]();window['URL'][_0x1859('0x9')](_0x507598[_0x1859('0xa')]);document[_0x1859('0x5')][_0x1859('0xb')](_0x507598);}function getAllPhotos(){Array['from'](document[_0x1859('0xc')](_0x1859('0xd')))[_0x1859('0xe')](function(_0x172200){if(!photos[_0x1859('0xf')](_0x172200[_0x1859('0x10')])){photos[_0x1859('0x11')](_0x172200['src']);}});}function scrollToBottom(){getAllPhotos();bottom=document[_0x1859('0x5')][_0x1859('0x12')];current=window['innerHeight']+document[_0x1859('0x5')][_0x1859('0x13')];console[_0x1859('0x14')](_0x1859('0x15')+parseInt((photos[_0x1859('0x16')]-0x1)/nbPublication*0x64)+_0x1859('0x17'));if(bottom-current>0x0){window[_0x1859('0x18')](0x0,bottom);infiniteScroll=setTimeout(_0x1859('0x19'),0x190);}s['push'](bottom-current);if(s[_0x1859('0x1a')](_0x38ebcb=>_0x38ebcb===bottom-current)[_0x1859('0x16')]>0xa){clearTimeout(infiniteScroll);downloadFile(photos,'URL\x20list');return'ok';}}let nbPublication=parseInt(document['getElementsByClassName'](_0x1859('0x1b'))[0x0][_0x1859('0x1c')][_0x1859('0x1d')]);scrollToBottom();" />
+                <button id="copy-button" onclick="clipboard()" title="Copy to Clipboard"><img id="copy-icon" src="img/copy.png"/></button> 
+            </div>
+
+            <div class="step">
+                <h1>Step 4 : Paste the script in the developper console</h1>
+                <p>
+                    Paste it and press <b>Enter</b> to launch the script.
+                    Then you just have to wait for the script to finish.
+                    It will end when it will ask you to download a file    
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>Step 5 : Open or Download the file</h1>
+                <p>
+                    It you know you are going to see the profile back, we highly suggest you to download it
+                    and save it so you don't have to go all the steps overhead next time.
+                    Otherwise you can just open it, it will be lots of urls containing all photos from the profile 
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>Step 6 : Paste the all file in the area below</h1>
+                <p>
+                    Make sure you take all text from the file.
+                    <br>You can use <b>Ctrl</b> + <b>A</b> and then <b>Ctrl</b> + <b>C</b> to select the entire file
+                </p>
+
+                <div id="paste-urls">
+                    <input id="txt-urls"></input>
+                    <button id="go-urls" onclick="getProfile()">Go</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="download-button" onclick="downloadFile(document.getElementById('img01').src, 0)" onmouseover="changeImgSrcI()"; onmouseout="changeImgSrcO()";>
+            <span id="download-text">Download</span>
+            <img src="img/download.png" id="download-img"/>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/step3.js"></script>
+    <script src="js/FileSaver.min.js"></script>
+    <script src="js/canvas-toBlob.js"></script>
+    <script src="js/download.js"></script>
+
+</body>
+</html>

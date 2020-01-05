@@ -1,0 +1,72 @@
+body {
+    background-color: #3458c0;
+    font-family: Montserrat;
+}
+
+.brand-name {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.brand-name:hover {
+    text-decoration: none;
+    color: #dddddd;
+}
+.navbar-custom {
+    width: 75%;
+    margin: 50px auto;
+}
+.navbar-custom .navbar-nav .nav-link {
+    margin-left: 20px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 0.9em;
+}   
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff3152;
+}
+
+#main-content {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 7px 7px 7px 7px;
+    height: auto;
+}
+#content-title {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff3152;
+    padding: 15px 15px 15px 25px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.about-title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.8em;
+    padding-bottom: 15px;
+}
+.about-desc {
+    color: #1c1c1c;
+    padding-bottom: 50px;
+}
+.about-desc:last-child {
+    padding-bottom: 0px;
+}
+#github-link {
+    color: #3458c0;
+}
+#github-link:hover {
+    text-decoration: none;
+    color: #ff3152;
+}
+#about {
+    padding: 25px;
+}
